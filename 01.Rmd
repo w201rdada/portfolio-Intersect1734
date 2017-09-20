@@ -1,24 +1,24 @@
-# My first cool idea {#slug-one}
+# Data-driven Team Selection in Youth Basketball {#Mini-Moneyball}
 
 #### Keywords
 
-yaba, daba, do
+Youth sports, sports analytics
 
-## A beginning.
+## The Struggle for League Coordinators.
+Youth sports offer a unique opportunity for young athletes to learn focus, dedication, and sportsmanship. These lessons are best taught through a well-balanced season, where players can experience both the reward of victory and the character-building that comes with defeat. It is often difficult to build balanced teams within a league, though, and one team may finish undefeated while another loses every single game. This imbalance may seem like a small issue or one that is overly obsessed with "fairness", but even an advocate for free competition can't ignore the consequences. An ESPN survey in 2013 revealed that the top reason players quit youth sports is because they do not have fun.^[1] With even competition being an integral part of enjoyment, the issue of team balance in youth sports leagues is absolutely critical to attrition.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Unfortunately, volunteer coordinators for recreational leagues are simply not equipped for this challenge. They have limited information, no tools, and short time frames to create teams. This project aims to better equip them by bringing the sports analytics revolution from the professional arena to youth leagues. The player assessment and team selection algorithms developed here will be game-changers in helping league coordinators create balanced seasons with competitive games. Ultimately, this will result in more lifelong athletes.
 
-## A middle.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+## Sports Analytics Tailored for Youth.
+This project will take on two primary challenges: player evaluation and team composition.
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+First, the analysis will determine which statistics best capture a young basketball player's skill level. Traditional metrics such as *height* and *lay-ups made in 1 minute* will be weighed against less obvious factors such as *number of siblings in the league* and *birth month*. Using player descriptions and game result data from previous seasons of local youth basketball programs, the project will explore variable relationships and uncover non-intuitive critical metrics. A small set of evaluation criteria will be put forward as the most critical, and some method of combining those metrics will be proposed to create a single-value "skill score".
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+With that knowledge, the project will then create a hypothetical player population and evaluate common team selection techniques. A "draft" model (with turns taken around a table) will be compared to various algorithmic methods to determine which results in the most evenly skilled teams. A "random selection" model will be used as a baseline, to ensure that any proposed selection process results in some increase to equality.
 
-## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+## Athletes for Life.
+The two studies described above will combine to offer a revolutionary total solution to league coordinators: advice on what player metrics to capture and how to translate those measurements into team assignments. There will be limitations, of course. Unavailable player and game data (due to privacy concerns or incomplete record keeping) may hinder the analysis, and league coordinators may be unable to implement the suggested evaluation methods. Even in a limited form, though, this project will improve the balance of teams so that young players can be introduced to basketball in an engaging and enjoyable way. The season's losses will be balanced by the satisfaction that comes with competition, and athletes will learn dedication and focus. Most importantly, they will be more likely to return to the court in subsequent seasons.
+
+[^1]:Kelley, Bruce and Carl Carchia. "Hidden Demographics of Youth Sports". *ESPN Magazine*. Published 11 July 2013. http://www.espn.com/espn/story/_/id/9469252/hidden-demographics-youth-sports-espn-magazine
