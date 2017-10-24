@@ -1,25 +1,42 @@
-# My second cool idea {#slug-two}
+---
+output:
+  html_document: default
+---
+# A Fitness App That Takes Initiative! {#Meetup Fitness}
 
 #### Keywords
 
-yaba, daba, do
+Fitness, App, Fitbit, Garmin, Step tracking
 
-## A beginning.
+## Move More - But How?
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+In recent years, Americans have collectively been given the mandate to "be more active". We are constantly reminded that walking more helps combat heart disease, and that obesity is among the top killers in this country. In a genuine effort to change their habits, many people have purchased a fitness watch or other step counter. Companies such as Fitbit and Garmin offer fitness bands that promise [actionable insights](https://connect.garmin.com/en-US/features/insights) for users. However, these insights need significant improvement.
 
-## A middle.
+![*Screenshot of the Garmin Insight page. Notice the advice to "Just keep moving!", followed by articles that reinforce the "take more steps" mandate.*](figures\figure01.png)  
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+Above is a real screenshot of a Garmin Connect Insight's page. The app suggests that I take the stairs and park further from my door in order to increase my activity on Fridays. These are fair suggestions if the goal is merely to increase step count. However, without activity **enjoyment** as a criteria, it is a slippery slope from these suggestions into more eclectic and ridiculous options for increased step count: office chairs being replaced by [yoga balls](https://officechairadvisor.com/yoga-ball-office-chair/) or [treadmills](https://www.thehumansolution.com/uplift-treadmill-desks/), for example.  
 
-
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+The discussion above raises three points: (1) fitness band users are desperate to increase their activity levels, (2) they have no idea how to do it, and (3) current fitness apps are not offering helpful suggestions. Consider the average user of a fitness band. He is not a regular gym goer or a professional nutritionist; he is a working professional with a desk job and a fear of heart disease. To really change his habits, he needs an app that will walk him through choices towards a more active life. This must be more than a suggestion to take the stairs; he needs to be excited about his new approach to fitness. Here, an app is proposed that offers fitness band users a better way to achieve their step goals -- through **enjoyable** activities. This is undoubtedly the route to real life change.
 
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+## Using Your Data To Make Fitness Fun 
 
-## An end.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+The app proposed here will be at the intersection of Fitbit and Meetup. It will analyze a user's movement statistics, then suggest activities and social groups to encourage the user to move more. Nearby events and challenges will be brought to the user's attention - making it easy for him to make the right choice to be more active - and social network functionalities will be used to provide peer encouragement and support.
+
+![*Examples of suggested activities*](figures\figure02.jpg)  
+
+The app works in three stages:  
+
+1. By analyzing the user's fitness band data, the app characterizes habits, strengths, and struggles. It determines which days and times the user is most active, and which days have grown more inactive. It also determines the user's physical capabilities: max speed, duration, and distance.  
+
+2. The app then searches through a database of known activities and suggests those that fit the user. Activities of a similar duration and intensity are offered, alongside some of increased intensity (~10%) as a "challenge".  For example, a user that has completed a 3-mile hike every Saturday for the last month may be challenged to complete a nearby 4-mile hike, while a user with minimal activity history may see a suggestion for a 0.5-mile walking tour of the botanical gardens.  
+
+3. Finally, the app searches the user's social network to find a suitable workout buddy. Friends with similar activity profiles (uration, distance, and frequency) are matched and offered an appropriate adventure for the pair to explore together.  
+
+Eventually, the app's functionality could be expanded by offering suggested hobbies or excursions. This feature would consider the activities a user has logged regularly, and attempt to introduce a new hobby based on combinations seen in other users. For example, data analysis may reveal that 80% of users logging a hike every Saturday also log a snowshoeing trip at least once in December. An avid hiker would then be prompted with a suggestion in December - "Why not give showshoeing a try?" Perhaps a Groupon for a guided showshoeing adventure could accompany the suggestion.
+
+
+## A Real Action Plan
+
+Good intentions must be accompanied by an action plan. 
