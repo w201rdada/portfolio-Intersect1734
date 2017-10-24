@@ -12,7 +12,7 @@ Fitness, App, Fitbit, Garmin, Step tracking
 
 In recent years, Americans have collectively been given the mandate to "be more active". We are constantly reminded that walking more helps combat heart disease, and that obesity is among the top killers in this country. In a genuine effort to change their habits, many people have purchased a fitness watch or other step counter. Companies such as Fitbit and Garmin offer fitness bands that promise [actionable insights](https://connect.garmin.com/en-US/features/insights) for users. However, these insights need significant improvement.
 
-![*Screenshot of the Garmin Insight page. Notice the advice to "Just keep moving!", followed by articles that reinforce the "take more steps" mandate.*](figures\figure01.png)  
+![*Screenshot of the Garmin Insight page. Notice the advice to "Just keep moving!", followed by articles that reinforce the "take more steps" mandate.*](./figures/figure01.png)  
 
 Above is a real screenshot of a Garmin Connect Insight's page. The app suggests that I take the stairs and park further from my door in order to increase my activity on Fridays. These are fair suggestions if the goal is merely to increase step count. However, without activity **enjoyment** as a criteria, it is a slippery slope from these suggestions into more eclectic and ridiculous options for increased step count: office chairs being replaced by [yoga balls](https://officechairadvisor.com/yoga-ball-office-chair/) or [treadmills](https://www.thehumansolution.com/uplift-treadmill-desks/), for example.  
 
@@ -24,7 +24,7 @@ The discussion above raises three points: (1) fitness band users are desperate t
 
 The app proposed here will be at the intersection of Fitbit and Meetup. It will analyze a user's movement statistics, then suggest activities and social groups to encourage the user to move more. Nearby events and challenges will be brought to the user's attention - making it easy for him to make the right choice to be more active - and social network functionalities will be used to provide peer encouragement and support.
 
-![*Examples of suggested activities*](figures\figure02.jpg)  
+![*Examples of suggested activities*](./figures/figure02.jpg)  
 
 The app works in three stages:  
 
