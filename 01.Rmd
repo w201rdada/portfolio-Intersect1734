@@ -1,6 +1,6 @@
 # Data-driven Team Selection in Youth Basketball {#Mini-Moneyball}
 
-#### Keywords
+#### Keywords{-}
 
 Youth sports, sports analytics
 
@@ -13,12 +13,12 @@ Unfortunately, volunteer coordinators for recreational leagues are simply not eq
 ## Sports Analytics Tailored for Youth
 This project will take on two primary challenges: player evaluation and team composition.  
 
-#### Player Evaluation - a data-driven "skill score"  
+#### Player Evaluation - a data-driven "skill score"{-}  
 First, the analysis will determine which statistics best capture a young basketball player's skill level. Traditional metrics such as *height* and *lay-ups made in 1 minute* will be weighed against less obvious factors such as *number of siblings in the league* and *birth month*. Player descriptions and performance data will initially be taken from previous seasons of local youth basketball programs, but the addition of family surveys for supplemental data will truly set this project apart. Particularly for sensitive information (with privacy concerns), obscure information (where record keeping may be incomplete), and "soft" metrics (such as *motivation for playing*), these surveys will offer more well-rounded information than has been used in the past.  
   
 With information about so many aspects of a player's identity, the project will explore the relationships between all of these variables and uncover non-intuitive critical metrics. A small set of evaluation criteria will then be put forward as the most impactful, and some method of combining those metrics will be proposed to create a single-value "skill score".  
   
-#### Team Composition  
+#### Team Composition{-}  
 With the "skill-score" metric defined, the project will then develop a model to associate a team's overall composition with its performance. This will answer the classic question: can one all-star create a winning season for his team? Or are team dynamics and complementary skills the key to success? Win/loss records will be modeled as a function of mean skill, range of skill, maximum skill, and other characterizations in order to determine which is the defining statistic.  
   
 Finally, the project will create a hypothetical player population and evaluate common team selection techniques and determine which results in the best team composition throughout the league. A "random selection" model will be used as a baseline, to ensure that any proposed selection process results in some increase to equality. Beyond that, a draft model (with turns taken around a table) will be compared to various algorithmic methods to determine which results in a set of fully competitive teams.  
