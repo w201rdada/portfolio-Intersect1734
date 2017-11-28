@@ -12,12 +12,9 @@ library(magrittr)
 ```
 
 
-# Welcome!
+# Welcome!{-}
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
-```
 
 Stuff and things. Welcome to the site.
 
@@ -27,13 +24,13 @@ Stuff and things. Welcome to the site.
 knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
 ```
 
+### Abstract: A Fitness App That Takes Initiative{-}
+
+Fitness band companies such as Fitbit or Garmin promise to offer "actionable insights" that help users be more active. However, they have not delivered on that promise. Currently, the best advice available to the average app user is to "take the stairs" and "walk more". That is no way to inspire lasting life change. Instead, apps must work with each user as an individual and find activities that bring enjoyment on a personal level. This project describes an app that does exactly that: we use movement data to understand a user's habits and abilities, then offer suggestions for fun, enjoyable, and most importantly sustainable activities. With an element of social networking added for accountability, this app is sure to inspire many people in their fitness journey.  
+
 ### Abstract: Data-driven Team Selection in Youth Basketball{-}
 
 Youth basketbal league coordinators are ill equipped for the challenge of creating balanced teams each season. With players changing every year and many dramatically changing in skill level, the youth sports draft problem is even more complicated than professional team formation. This project aims to bring professional-level sports analytics to the youth level, so that coordinators can create better games, balanced seasons, and ultimately more lifelong athletes.
-
-### Abstract: A Fitness App That Takes Initiative{-}
-
-Fitness band companies such as Fitbit or Garmin promise to offer "actionable insights" that help users be more active. However, they have not delivered on that promise. Currently, the best advice available to the average app user is to "take the stairs" and "walk more". That is no way to inspire lasting life change. Instead, apps must work with each user as an individual and find activities that bring enjoyment on a personal level. This project describes an app that does exactly that: we use movement data to understand a user's habits and abilities, then offer suggestions for fun, enjoyable, and most importantly sustainable activities. With an element of social networking added for accountability, this app is sure to inspire many people in their fitness journey.
   
 ## About the author{-}
 
