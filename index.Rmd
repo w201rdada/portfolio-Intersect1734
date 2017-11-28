@@ -39,6 +39,5 @@ Fitness band companies such as Fitbit or Garmin promise to offer "actionable ins
 
 Krissy Gianforte is currently a student in the UC Berkeley MIDS Program. She is interested in statistics and data analysis as it relates to her career in medical device development and testing. She lives in Washington state with her husband, dog, and cat.
 
-![Not to oversimplify...](https://xkcd.com/793/)
 
 *Updated: `r Sys.Date()`*
