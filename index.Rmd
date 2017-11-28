@@ -34,7 +34,9 @@ Youth basketbal league coordinators are ill equipped for the challenge of creati
   
 ## About the author{-}
 
-Krissy Gianforte is currently a student in the UC Berkeley MIDS Program. She is interested in statistics and data analysis as it relates to her career in medical device development and testing. She lives in Washington state with her husband, dog, and cat.
+Krissy Gianforte is currently a student in the UC Berkeley MIDS Program. She is interested in statistics and data analysis as it relates to her career in medical device development and testing. She lives in Washington state with her husband, dog, and cat. They enjoy  hiking and backpacking around western Washington. Except for the cat, who prefers to stay home and help with RDADA assignments. 
+
+![*Allie cat and Flick*](./figures/biopic.jpg)
 
 
 *Updated: `r Sys.Date()`*
