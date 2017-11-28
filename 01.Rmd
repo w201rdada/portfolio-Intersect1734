@@ -1,8 +1,4 @@
----
-output:
-  html_document: default
----
-# A Fitness App That Takes Initiative! {#Meetup Fitness}
+# A Fitness App That Takes Initiative! {#Meetup-Fitness}
 
 #### Keywords{-}
 
